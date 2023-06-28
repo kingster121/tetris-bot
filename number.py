@@ -1,7 +1,7 @@
 import cv2
 
 # Load the screenshot image
-screenshot = cv2.imread("./images/score7.png")
+screenshot = cv2.imread("./numbers/score_references/score1.png")
 
 # Define the region of interest (ROI) coordinates containing the score
 x = 650  # Top-left x-coordinate of the ROI

@@ -1,0 +1,97 @@
+1687773258044	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MZAddkHXgMWi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1687773258614	Marionette	INFO	Marionette enabled
+1687773258622	Marionette	INFO	Listening on port 36987
+console.error: "Warning: unrecognized command line flag -foreground\n"
+1687773258783	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript warning: https://tetris.com/games-content/play-tetris-content/resources/project-tetriscom/game/game-6CFE455BCD75157E/target-desktop/cocos-js/cc.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_X level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_X level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_Y level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_Y level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_Z level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_X level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_X level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_Y level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_Y level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_Z level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_X level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_X level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_Y level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_Y level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_Z level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IQSFUkhUGxVfAIopecFKbiTYCckszFTcFsmN0yEW6wM.js line 2 > eval line 6188 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IQSFUkhUGxVfAIopecFKbiTYCckszFTcFsmN0yEW6wM.js line 2 > eval line 91 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IQSFUkhUGxVfAIopecFKbiTYCckszFTcFsmN0yEW6wM.js line 2 > eval line 1683 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IQSFUkhUGxVfAIopecFKbiTYCckszFTcFsmN0yEW6wM.js line 2 > eval line 6475 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IQSFUkhUGxVfAIopecFKbiTYCckszFTcFsmN0yEW6wM.js line 2 > eval line 6162 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IQSFUkhUGxVfAIopecFKbiTYCckszFTcFsmN0yEW6wM.js line 2 > eval line 5534 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IQSFUkhUGxVfAIopecFKbiTYCckszFTcFsmN0yEW6wM.js line 2 > eval line 5812 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IQSFUkhUGxVfAIopecFKbiTYCckszFTcFsmN0yEW6wM.js line 2 > eval line 4037 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+1687773295148	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tPPIowmA3AY3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1687773295676	Marionette	INFO	Marionette enabled
+1687773295678	Marionette	INFO	Listening on port 46699
+console.error: "Warning: unrecognized command line flag -foreground\n"
+1687773295807	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript warning: https://tetris.com/games-content/play-tetris-content/resources/project-tetriscom/game/game-6CFE455BCD75157E/target-desktop/cocos-js/cc.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_X level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_X level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_Y level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_Y level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_Z level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_X level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_X level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_Y level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_Y level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_Z level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_X level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_X level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_Y level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_Y level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_Z level 0 is incurring lazy initialization.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IQSFUkhUGxVfAIopecFKbiTYCckszFTcFsmN0yEW6wM.js line 2 > eval line 1571 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IQSFUkhUGxVfAIopecFKbiTYCckszFTcFsmN0yEW6wM.js line 2 > eval line 469 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IQSFUkhUGxVfAIopecFKbiTYCckszFTcFsmN0yEW6wM.js line 2 > eval line 3732 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1687773323001	Marionette	INFO	Stopped listening on port 46699
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
