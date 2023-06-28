@@ -24,8 +24,10 @@ class Tetris:
         print(type(window_handle), window_handle)
 
     def start(self):
-        # Close ad
+        # Close ads
         pyautogui.moveTo(30, 940)
+        pyautogui.click()
+        pyautogui.moveTo(850, 900)
         pyautogui.click()
 
         # Start game
@@ -33,12 +35,13 @@ class Tetris:
         pyautogui.click()
 
     def screenshot(self):
-        # Screenshot the browser
+        # Finds the window ID
         window_name = "Play Tetris"
         command = f"xdotool search --name '{window_name}'"
         output = subprocess.check_output(command, shell=True).decode("utf-8").strip()
         window_id = int(output)
 
+        # Screenshot the window
         output_file = "browser_screenshot.png"
         command = f"import -window {window_id} {output_file}"
         subprocess.run(command, shell=True)
@@ -68,6 +71,6 @@ tetris = Tetris()
 time.sleep(10)
 tetris.start()
 
-while True:
-    time.sleep(1)
-    tetris.perform_action(0)
+# while True:
+#     time.sleep(1)
+#     tetris.perform_action(0)
