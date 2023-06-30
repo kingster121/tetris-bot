@@ -7,7 +7,7 @@ def capture_window(window_name):
     output = subprocess.check_output(command, shell=True).decode("utf-8").strip()
     window_id = int(output)
 
-    output_file = "./images/browser_screenshot.png"
+    output_file = "./numbers/screenshots/browser_screenshot.png"
     command = f"import -window {window_id} {output_file}"
     subprocess.run(command, shell=True)
 
