@@ -3,7 +3,6 @@ import cv2
 
 def score_region(filename):
     # Load screenshot image
-    print(filename)
     screenshot = cv2.imread(filename)
 
     # Define the region of interest (ROI) coordinates containing the score
@@ -22,4 +21,4 @@ def score_region(filename):
 
 
 if __name__ == "__main__":
-    score_region("./database/screenshots/ss0.png")
+    score_region("./database/screenshots/browser_screenshot.png")
