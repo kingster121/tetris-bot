@@ -5,6 +5,10 @@ import pyautogui  # Mouse clicks
 
 import time
 import subprocess
+import cv2
+import pytesseract
+
+SCREENSHOT_PATH = "./screenshot/browser_screenshot.png"
 
 
 class Tetris:
@@ -18,17 +22,13 @@ class Tetris:
         self.driver.switch_to.frame(iframe)
         self.canvas = self.driver.find_element(By.ID, "GameCanvas")
 
-        # New
-        window_handle = self.driver.current_window_handle
-        # window_id = int(window_handle)
-        print(type(window_handle), window_handle)
-
     def start(self):
         # Close ads
         pyautogui.moveTo(30, 940)
         pyautogui.click()
         pyautogui.moveTo(850, 900)
         pyautogui.click()
+        time.sleep(2)
 
         # Start game
         pyautogui.moveTo(900, 680)
@@ -42,7 +42,7 @@ class Tetris:
         window_id = int(output)
 
         # Screenshot the window
-        output_file = "browser_screenshot.png"
+        output_file = SCREENSHOT_PATH
         command = f"import -window {window_id} {output_file}"
         subprocess.run(command, shell=True)
 
@@ -51,7 +51,29 @@ class Tetris:
 
     def reward(self):
         # Returns the current score
-        pass
+        screenshot = cv2.imread(SCREENSHOT_PATH)
+
+        # Define the region of interest (ROI) coordinates containing the score
+        x = 650  # Top-left x-coordinate of the ROI
+        y = 815  # Top-left y-coordinate of the ROI
+        width = 110  # Width of the ROI
+        height = 25  # Height of the ROI
+
+        # Extract the score region from the screenshot
+        score_region = screenshot[y : y + height, x : x + width]
+
+        # Convert the image to grayscale
+        gray_image = cv2.cvtColor(score_region, cv2.COLOR_BGR2GRAY)
+
+        # Use Tesseract OCR to extract text from the image
+        result = pytesseract.image_to_string(gray_image, config="--psm 6")
+
+        # Process the result to extract the number
+        if result:
+            number = int("".join(filter(str.isdigit, result)))
+            return number
+        else:
+            return 0
 
     def action_to_keys(self, i: int):
         actions_dict = {
@@ -71,6 +93,7 @@ tetris = Tetris()
 time.sleep(10)
 tetris.start()
 
-# while True:
-#     time.sleep(1)
-#     tetris.perform_action(0)
+while True:
+    time.sleep(1)
+    tetris.screenshot()
+    print(tetris.reward())
