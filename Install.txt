@@ -1,0 +1,7 @@
+geckodriver (for selenium to access websites) -> https://stackoverflow.com/questions/40208051/selenium-using-python-geckodriver-executable-needs-to-be-in-path
+
+
+Nvidia GPU setup for machine learning:
+GPU drivers -> https://medium.com/swlh/use-gpu-for-programming-on-linux-case-tensorflow-b79e15f25351
+tensorflow and libraries: https://www.tensorflow.org/install/pip
+
