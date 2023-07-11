@@ -48,7 +48,22 @@ class Tetris:
         subprocess.run(command, shell=True)
 
     def reset(self):
-        pass
+        # Quit game
+        pyautogui.moveTo(1300, 980)
+        pyautogui.click()
+        pyautogui.moveTo(1000, 850)
+        pyautogui.click()
+        pyautogui.moveTo(1000, 750)
+        pyautogui.click()
+        time.sleep(2)
+
+        # Start game
+        self.start()
+        time.sleep(2)
+
+        # Close ad
+        pyautogui.moveTo(850, 900)
+        pyautogui.click()
 
     def observation(self):
         screenshot = cv2.imread(SCREENSHOT_PATH)
@@ -133,3 +148,6 @@ while True:
     time.sleep(1)
     tetris.screenshot()
     print(tetris.reward())
+
+    time.sleep(4)
+    tetris.reset()
