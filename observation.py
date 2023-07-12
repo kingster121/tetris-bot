@@ -40,4 +40,4 @@ def score_region(filename):
 
 
 if __name__ == "__main__":
-    print(score_region("screenshot/browser_screenshot.png"))
+    print(score_region("screenshot/sample/380.png"))
