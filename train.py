@@ -80,8 +80,7 @@ class DQNAgent:
                     self.replay(batch_size)
 
 
-# Example usage
-env = GymEnvironment()  # Replace with your own environment
+env = GymEnvironment()
 
 state_size = env.observation_space.shape[0]
 action_size = env.action_space.n

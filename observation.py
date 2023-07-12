@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import time
 
 
 def score_region(filename):
@@ -40,4 +41,7 @@ def score_region(filename):
 
 
 if __name__ == "__main__":
+    start_time = time.time()
     print(score_region("screenshot/sample/380.png"))
+    end_time = time.time()
+    print(end_time - start_time)

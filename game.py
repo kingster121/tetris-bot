@@ -37,15 +37,20 @@ class Tetris:
 
     def screenshot(self):
         # Finds the window ID
+        time_start = time.time()
         window_name = "Play Tetris"
         command = f"xdotool search --name '{window_name}'"
         output = subprocess.check_output(command, shell=True).decode("utf-8").strip()
         window_id = int(output)
+        time_end = time.time()
+        print(f"Finding window: {time_end - time_start}")
 
         # Screenshot the window
         output_file = SCREENSHOT_PATH
         command = f"import -window {window_id} {output_file}"
         subprocess.run(command, shell=True)
+        time_end = time.time()
+        print(f"Screenshot time: {time_end - time_start}")
 
     def reset(self):
         # Quit game
@@ -138,6 +143,15 @@ class Tetris:
     def perform_action(self, i: int):
         key = self.action_to_keys(i)
         self.canvas.send_keys(key)
+
+    def step(self, i):
+        done = False
+        self.perform_action(i)
+
+        prev_score = self.current_score
+        self.screenshot()
+        self.current_score = self.reward()
+        reward = current_score - prev_score
 
 
 tetris = Tetris()
